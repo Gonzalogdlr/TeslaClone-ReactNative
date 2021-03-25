@@ -5,7 +5,7 @@ import {widthPercentageToDP as wp, heightPercentageToDP as hp} from 'react-nativ
 const styles = StyleSheet.create({
   carContainer: {
     width: wp('100%'),
-    height: hp('110%'),
+    height: Dimensions.get('screen').height,
 },
   titles: {
     marginTop: '30%',

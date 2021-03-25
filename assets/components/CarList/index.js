@@ -13,7 +13,7 @@ export default function CarList() {
         showsVerticalScrollIndicator={false}
         snapToAlignment={'start'}
         decelerationRate={'fast'}
-        snapToInterval={Dimensions.get('window').height}
+        snapToInterval={Dimensions.get('screen').height}
       />
     </View>
   )
